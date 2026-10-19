@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Informativa sulla privacy dell'app Prices: dati trattati, servizi utilizzati, conservazione e diritti degli utenti.">
+  <meta name="theme-color" content="#0175C2">
+  <title>Informativa sulla privacy — Prices</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; color: #17212b; background: #f3f6f8; }
+    body { margin: 0; }
+    main { max-width: 820px; margin: 40px auto; padding: 32px clamp(20px, 5vw, 52px); background: #fff; border-radius: 16px; box-shadow: 0 8px 32px #16324a12; }
+    h1, h2 { line-height: 1.25; color: #143b59; }
+    h1 { margin-top: 0; }
+    a { color: #075ea8; }
+    .updated { color: #52616d; }
+    .lang { border-bottom: 1px solid #d9e1e7; padding-bottom: 28px; margin-bottom: 32px; }
+    @media (max-width: 600px) { main { margin: 0; border-radius: 0; padding-top: 24px; } }
+  </style>
+</head>
+<body>
+<main>
+  <article class="lang" lang="it">
+    <h1>Informativa sulla privacy — Prices</h1>
+    <p class="updated"><strong>Ultimo aggiornamento: 19 ottobre 2026</strong></p>
+    <p>Questa informativa spiega come l'app Prices tratta i dati quando scansioni prodotti, cartellini o scontrini e quando consulti i confronti di prezzo. Si applica all'app Android e alle relative funzionalità online.</p>
+    <h2>Titolare e contatti</h2>
+    <p>Il titolare del trattamento è lo sviluppatore indipendente dell'app Prices, raggiungibile tramite <a href="https://github.com/St3fez/prices---gemini-v3">il repository GitHub</a>. Per richieste privacy puoi aprire una <a href="https://github.com/St3fez/prices---gemini-v3/issues">segnalazione privata al titolare</a> indicando “Privacy” nel titolo. Non inserire dati personali o copie di documenti in segnalazioni pubbliche.</p>
+    <h2>Dati trattati</h2>
+    <p>In base alle funzioni che usi, l'app può trattare:</p>
+    <ul>
+      <li><strong>Prodotti e prezzi:</strong> barcode, nome e marca del prodotto, prezzo, prezzo unitario, negozio, città e indirizzo, data della rilevazione, lingua e paese.</li>
+      <li><strong>Scansioni di scontrini:</strong> le immagini inviate volontariamente per l'analisi e i dati estratti, che possono includere negozio, indirizzo, città, partita IVA, data e ora, prodotti, quantità, prezzi, sconti, totale, valuta, metodo di pagamento e programma fedeltà riportato sul documento. Controlli e confermi i dati prima di salvarli.</li>
+      <li><strong>Posizione:</strong> coordinate GPS, solo se concedi il permesso, per associare le rilevazioni a un'area e mostrare confronti nelle vicinanze. La posizione è facoltativa.</li>
+      <li><strong>Abbonamento Prices Pro:</strong> piano ed esito dell'acquisto o del ripristino, gestiti tramite Google Play. L'app conserva localmente il conteggio delle scansioni gratuite e lo stato Pro memorizzato.</li>
+      <li><strong>Dati tecnici:</strong> richieste di rete e informazioni diagnostiche generate dai servizi necessari a fornire e proteggere il servizio.</li>
+    </ul>
+    <p>La fotocamera serve a leggere codici a barre, cartellini e scontrini. Il riconoscimento di testo e barcode delle scansioni normali avviene sul dispositivo. Le foto degli scontrini sono inviate al backend solo quando scegli di analizzarle; non sono caricate nel database delle rilevazioni dei prezzi. La posizione viene letta solo dopo aver concesso il permesso.</p>
+    <h2>Uso dei dati e database condiviso</h2>
+    <p>Usiamo i dati per fornire scansione e riconoscimento, analizzare gli scontrini, mostrare cronologia e statistiche sul dispositivo, cercare informazioni sui prodotti e confrontare prezzi tra negozi. Se confermi il salvataggio, le informazioni sui prodotti e prezzi selezionate vengono inviate al database condiviso per alimentare i confronti. Non sono associate a un profilo utente nell'app e possono essere consultabili da altri utenti attraverso le funzioni di confronto.</p>
+    <h2>Servizi e destinatari</h2>
+    <ul>
+      <li><strong>Supabase:</strong> backend e database condiviso di scansioni e prezzi.</li>
+      <li><strong>Anthropic:</strong> riceve le immagini dello scontrino e il contesto di lingua, paese e valuta quando avvii l'analisi.</li>
+      <li><strong>Open Food Facts:</strong> può ricevere barcode e contesto di lingua e paese per cercare i dati del prodotto.</li>
+      <li><strong>Servizi di ricerca configurati (SearXNG e, se configurato, SerpAPI):</strong> possono ricevere il nome del prodotto e il contesto geografico e linguistico per cercare prezzi online.</li>
+      <li><strong>Amazon:</strong> se la funzione è attiva, riceve i dati di ricerca necessari a trovare un'offerta; i link possono includere un identificativo di affiliazione.</li>
+      <li><strong>Google Play:</strong> gestisce acquisto e ripristino dell'abbonamento Pro.</li>
+    </ul>
+    <p>Il testo delle scansioni standard viene elaborato localmente con Google ML Kit. L'app non integra attualmente annunci pubblicitari. I fornitori trattano i dati secondo le proprie informative e possono operare fuori dallo Spazio economico europeo; in tali casi si applicano le garanzie previste dalla normativa.</p>
+    <h2>Facoltatività e conservazione</h2>
+    <p>Puoi usare l'app senza inviare scontrini o consentire la posizione, anche se alcune funzioni saranno limitate. Puoi revocare il permesso di posizione dalle impostazioni Android. Le foto dello scontrino sono trasmesse per l'analisi e non vengono salvate dalla funzione dell'app nel database delle scansioni. I dati di prezzo confermati possono restare nel database condiviso per mantenere confronti e serie storiche. L'app non ha account né una funzione automatica per cancellare le rilevazioni: per chiedere accesso o cancellazione, contatta il titolare tramite il collegamento sopra e fornisci i dettagli utili a individuarle. I tempi di conservazione dei dati tecnici e dei dati trattati dai fornitori dipendono dalle rispettive configurazioni e informative. I dati locali possono essere rimossi cancellando i dati dell'app o disinstallandola; gli acquisti si gestiscono tramite Google Play.</p>
+    <h2>Diritti, minori e modifiche</h2>
+    <p>Nei casi previsti dalla normativa puoi chiedere accesso, rettifica, cancellazione, limitazione o opporti al trattamento e presentare reclamo all'autorità competente, in Italia il Garante per la protezione dei dati personali. Prices non è progettata per raccogliere consapevolmente dati personali di minori. La data in alto indica la revisione più recente dell'informativa.</p>
+  </article>
+  <article lang="en">
+    <h1>Privacy Policy — Prices</h1>
+    <p class="updated"><strong>Last updated: 19 October 2026</strong></p>
+    <p>This notice explains how Prices handles data when you scan products, shelf labels or receipts and use price comparisons. It applies to the Android app and its online features.</p>
+    <h2>Data controller and contact</h2>
+    <p>The data controller is the independent developer of Prices, reachable through the <a href="https://github.com/St3fez/prices---gemini-v3">project's GitHub repository</a>. For privacy requests, contact the developer through <a href="https://github.com/St3fez/prices---gemini-v3/issues">GitHub issues</a> with “Privacy” in the title. Do not include personal data or document images in a public issue.</p>
+    <h2>Data we process</h2>
+    <p>Depending on the features you use, Prices may process:</p>
+    <ul>
+      <li><strong>Products and prices:</strong> barcode, product name and brand, price and unit price, shop, city and address, scan date, language and country.</li>
+      <li><strong>Receipt scans:</strong> receipt images you choose to submit for analysis and extracted information, which may include shop, address, city, VAT number, date and time, items, quantities, prices, discounts, total, currency, payment method and loyalty programme shown on the receipt. You review and confirm the extracted information before saving it.</li>
+      <li><strong>Location:</strong> GPS coordinates, only if you grant location permission, to associate saved price observations with an area and show nearby comparisons. Location is optional.</li>
+      <li><strong>Prices Pro subscription:</strong> plan and purchase or restore status handled through Google Play. The app stores the free-scan count and cached Pro status locally on your device.</li>
+      <li><strong>Technical data:</strong> network requests and diagnostic information generated by services needed to provide and protect the service.</li>
+    </ul>
+    <p>The camera is used to read barcodes, shelf labels and receipts. Text and barcode recognition for regular scans runs on your device. Receipt photos are sent to the backend only when you request analysis; they are not uploaded to the price-observation database. Location is read only after you grant permission.</p>
+    <h2>How data is used and shared</h2>
+    <p>We use data to provide scanning and recognition, analyse receipts, show on-device history and statistics, find product information and compare prices across shops. If you confirm a save, selected product and price details are sent to a shared database for comparisons. They are not linked to an in-app user profile and may be available to other users through comparison features.</p>
+    <h2>Service providers</h2>
+    <ul>
+      <li><strong>Supabase:</strong> backend and shared database for scans and prices.</li>
+      <li><strong>Anthropic:</strong> receives receipt images and language, country and currency context when you start receipt analysis.</li>
+      <li><strong>Open Food Facts:</strong> may receive a barcode and language and country context to look up product information.</li>
+      <li><strong>Configured search services (SearXNG and, if configured, SerpAPI):</strong> may receive a product name and geographic and language context to search online prices.</li>
+      <li><strong>Amazon:</strong> if enabled, receives search details needed to find an offer; links may contain an affiliate identifier.</li>
+      <li><strong>Google Play:</strong> handles purchase and restoration of the Pro subscription.</li>
+    </ul>
+    <p>Regular scan text is processed on-device with Google ML Kit. The app does not currently include advertising. Providers process data under their own privacy notices and may operate outside the European Economic Area, subject to applicable legal safeguards.</p>
+    <h2>Choice and retention</h2>
+    <p>You can use the app without submitting receipts or allowing location, although some features will be limited. You can revoke location permission in Android settings. Receipt photos are transmitted for analysis and are not saved by the app's receipt feature in the scan database. Confirmed price data may remain in the shared database to maintain comparisons and historical trends. The app has no account or automatic deletion feature for observations; to request access or deletion, contact the developer using the link above and provide details that help identify the observation. Retention periods for technical data and data handled by providers depend on their respective configurations and privacy notices. Local app data can be removed by clearing app data or uninstalling; purchases are managed through Google Play.</p>
+    <h2>Your rights, children and changes</h2>
+    <p>Where applicable, you may request access, correction, deletion, restriction or object to processing, and lodge a complaint with your data protection authority. Prices is not designed to knowingly collect personal data from children. The date above shows the latest revision of this notice.</p>
+  </article>
+</main>
+</body>
+</html>
